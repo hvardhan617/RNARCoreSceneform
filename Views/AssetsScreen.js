@@ -24,7 +24,7 @@ export default class AssetsScreen extends Component {
 	componentDidMount() {
 		//Make list assets poly api Call
 		let url =
-			'https://poly.googleapis.com/v1/assets?key=AIzaSyCmdrzgJHhkiNa97ZsNxPxCvojRYQRREO0&format=GLTF2&curated=true';
+			'https://poly.googleapis.com/v1/assets?key=AIzaSyCmdharryRickrzgJHhkiNa97ZsNxPxCvojRYQRREO0&format=GLTF2&curated=true';
 		return fetch(url)
 			.then((response) =>
 				// console.log('Response from poly list assets api:::' + response.json());
